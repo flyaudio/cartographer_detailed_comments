@@ -414,7 +414,7 @@ void FastCorrelativeScanMatcher2D::ScoreCandidates(
  * @param[in] search_parameters 
  * @param[in] candidates 
  * @param[in] candidate_depth 
- * @param[in] min_score 
+ * @param[in] min_score ,是配置参数,为0.55
  * @return Candidate2D 
  */
 Candidate2D FastCorrelativeScanMatcher2D::BranchAndBound(
